@@ -12,28 +12,28 @@ Index Terms—Stochastic computing, PIM, SOT-MRAM
 
 ## 2019 Neural Networks
 
-- 2019 DAC: SkippyNN: An Embedded Stochastic-Computing Accelerator for Convolutional Neural Networks
+- 2019 DAC: SkippyNN: An Embedded Stochastic-Computing Accelerator for Convolutional Neural Networks. (Univ. of Tehran, Minnesota)
 
   - In this work, we propose a novel architecture, called SkippyNN, that reduces the computation time of SC-based multiplications in the convolutional layers of CNNs. Each convolution in a CNN is composed of numerous multiplications where each input value is multiplied by a weight vector. Producing the result of the first mul- tiplication, the following multiplications can be performed by multiplying the input and the differences of the successive weights. Leveraging this property, we develop a differential Multiply-and- Accumulate unit, called DMAC, to reduce the time consumed by convolutions in SkippyNN. We evaluate the efficiency of SkippyNN using four modern CNNs. On average, SkippyNN offers 1.2x speedup and 2.7x energy saving compared to the binary implementation of CNN accelerators.
 
 
-- 2019 DAC: Successive Log Quantization for Cost-Efficient Neural Networks Using Stochastic Computing
+- 2019 DAC: Successive Log Quantization for Cost-Efficient Neural Networks Using Stochastic Computing. (UNIST)
 
   - Despite the multifaceted benefits of stochastic computing (SC) such as low cost, low power, and flexible precision, SC-based deep neural networks (DNNs) still suffer from the long-latency problem, especially for those with high precision requirements. While log quantization can be of help, it has its own accuracy-saturation problem due to uneven precision distribution. In this paper we propose successive log quantization (SLQ), which extends log quantization with significant improvements in precision and accuracy, and apply it to state-of-the-art SC-DNNs. SLQ reuses the existing datapath of log quantization, and thus retains its advantages such as simple multiplier hardware. Our experimental results demonstrate that our SLQ can significantly extend both the accuracy and efficiency of SC-DNNs over the state-of-the-art solutions, including linear-quantized and log-quantized SC-DNNs, achieving less than 1⇠1.5%p accuracy drop for AlexNet, SqueezeNet, and VGG-S at mere 4⇠5-bit weight resolution.
 
 
-- 2019 DATE: Energy-Efficient Convolutional Neural Networks with Deterministic Bit-Stream Processing
+- 2019 DATE: Energy-Efficient Convolutional Neural Networks with Deterministic Bit-Stream Processing. (University of Minnesota, University of Louisiana)
 
   - Stochastic computing (SC) has been used for low cost and low power implementation of neural networks. Inherent inaccuracy and long latency of processing random bit-streams have made prior SC-based implementations inefficient compared to conventional fixed-point designs. Random or pseudo-random bitstreams often need to be processed for a very long time to produce acceptable results. This long latency leads to a significantly higher energy consumption than binary design counterparts. Low-discrepancy sequences have been recently used for fast-converging deterministic computation with stochastic constructs. In this work, we propose a low-cost, low-latency, and energy-efficient implementation of convolutional neural networks based on low-discrepancy deterministic bit-streams. Experimental results show a significant reduction in the energy consumption compared to previous random bitstream-based implementations and to the optimized fixed-point design with no quality degradation.
 
 
 
-- 2019 ASP-DAC: Log-Quantized Stochastic Computing for Memory and Computation Efficient DNNs(No paper)
+- 2019 ASP-DAC: Log-Quantized Stochastic Computing for Memory and Computation Efficient DNNs. (UNIST)(No paper)
 
   - For energy efficiency, many low-bit quantization methods for deep neural networks (DNNs) have been proposed. Among them, logarithmic quantization is being highlighted showing acceptable deep learning performance. It also simplifies high-cost multipliers as well as reducing memory footprint drastically. Meanwhile, stochastic computing (SC) was proposed for low-cost DNN acceleration and the recently proposed SC multiplier improved the accuracy and latency significantly which are main drawbacks of SC. However, in their binary-interfaced system which yet costs much less than storing all stochastic stream, quantization is basically linear as same as conventional fixed-point binary. We applied logarithmically quantized DNNs to the state-of-the-art SC multiplier and studied how it can benefit. We found that SC multiplication on logarithmically quantized input is more accurate and it can help fine-tuning process. Furthermore, we designed the much low-cost SC-DNN accelerator utilizing the reduced complexity of inputs. Finally, while logarithmic quantization benefits data flow, proposed architecture achieves 40% and 24% less area and power consumption than the previous SC-DNN accelerator. Its area X latency product is smaller even than the shifter based accelerator.
 
 
-- 2019 TACS-I: Efficient CMOS Invertible Logic Using Stochastic Computing
+- 2019 TACS-I: Efficient CMOS Invertible Logic Using Stochastic Computing. (McGill University, Tohoku University)
 
   - Invertible logic can operate in one of two modes: 1) a forward mode, in which inputs are presented and a single, correct output is produced, and 2) a reverse mode, in which the output is fixed and the inputs take on values consistent with the output. It is possible to create invertible logic using various Boltzmann machine configurations. Such systems have been shown to solve certain challenging problems quickly, such as factorization and combinatorial optimization. In this paper, we show that invertible logic can be implemented using simple spiking neural networks based on stochastic computing. We present a design methodology for invertible stochastic gates, which can be implemented using a small amount of CMOS hardware. We demonstrate that our design can not only correctly implement the basic gates with invertible capability but can also be extended to construct invertible stochastic adder and multiplier circuits. The experimental results are presented, which demonstrate the correct operation of synthesizable invertible circuitry performing both multiplication and factorization, along with fabricated ASIC measurement results for an invertible multiplier circuit.
 

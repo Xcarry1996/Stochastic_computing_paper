@@ -1,6 +1,6 @@
 # Stochastic_computing_paper
 
-update sc papers and relevant works
+update sc papers and relevant works..that I am interested in.lol
 
 ## 2018
 

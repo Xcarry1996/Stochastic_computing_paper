@@ -2,7 +2,7 @@
 
 update sc papers and relevant works..that I am interested in.lol
 
-## 2018
+## In-Memory Computing
 
 - 2018 arXiv: In-memory multiplication engine with SOT-MRAM based stochastic computing
 
@@ -10,7 +10,7 @@ update sc papers and relevant works..that I am interested in.lol
 Index Terms—Stochastic computing, PIM, SOT-MRAM
 
 
-## 2019 Neural Networks
+## Neural Networks
 
 - 2019 DAC: SkippyNN: An Embedded Stochastic-Computing Accelerator for Convolutional Neural Networks. (Univ. of Tehran, Minnesota)
 
@@ -62,3 +62,12 @@ Index Terms—Stochastic computing, PIM, SOT-MRAM
 
   - In this study, we propose a novel computing paradigm “Bit Stream Computing” that is constructed on the logic used in stochastic computing, but does not necessarily employ randomly or Binomially distributed bit streams as stochastic computing does. Any type of streams can be used either stochastic or deterministic. The proposed paradigm benefits from the area advantage of stochastic logic and the accuracy advantage of conventional binary logic. We implement accurate arithmetic multiplier and adder circuits, classified as asynchronous or synchronous; we also consider their suitability of processing successive streams. The proposed circuits are simulated using the Cadence Genus tool with TSMC 0.18μm CMOS technology. We thoroughly compare the proposed adders and multipliers with their predecessors in the literature, individually and in a neural network application. Comparisons are made in terms of area, speed, power, and accuracy. We believe that this study opens up new horizons for computing that enables us to implement much smaller yet accurate arithmetic circuits compared to the conventional binary and stochastic ones.
 
+## Circuit Synthesis
+
+- 2019 DAC: In-stream Stochastic Division and Square Root via Correlation. (Wisconsin)
+
+  - Stochastic Computing (SC) is designed to minimize hardware area and power consumption compared to traditional binary-encoded computation, stemming from the bit-serial data representation and extremely straightforward logic. Though existing Stochastic Com- puting Units mostly assume uncorrelated bit streams, recent works find that correlation can be exploited for higher accuracy. We pro- pose novel architectures for SC division and square root, which leverage correlation via low-cost in-stream mechanisms that elim- inate expensive bit stream regeneration. We also introduce new metrics to better evaluate SC circuits relying on equilibrium via feedback loops. Experiments indicate that our division converges 46.3% faster with both 43.3% lower error and 45.6% less area.
+  
+- 2019 TCAD: Simultaneous Area and Latency Optimization for Stochastic Circuits by D Flip-flop Insertion (University of Michigan–Shanghai Jiao Tong University Joint Institute)
+
+  - Stochastic computing (SC) is an unconventional computing technique using digital circuits. It performs arithmetic computation on stochastic bit streams, which encode real values through the ratios of ones in the streams. Despite its advantages such as simple arithmetic units and strong error tolerance, SC faces two big challenges: long computation latency and large hardware overhead to generate independent stochastic bit streams. A recent work proposes to insert D flip-flops (DFFs) into the stochastic circuit to reduce the overhead to generate stochastic bit streams. In this work, observing that DFFs can also be exploited to reduce circuit delay, we propose a novel method to insert DFFs into a stochastic circuit to simultaneously reduce the computation latency of the circuit and the overhead of generating stochastic bit streams, thus addressing both challenges at the same time. Experimental results showed that compared to the state-of-the-art method in optimizing stochastic circuits with DFF insertion, our method can reduce the computation latency by 14.3% and the number of DFFs by 48.1%.
